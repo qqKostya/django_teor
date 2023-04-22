@@ -1,7 +1,7 @@
 format:  ## Lint and static-check
 	clear
-	black .
-	flake8 .
+	black django_example/
+	flake8 django_example/
 
 start:
-	python manage.py runserver
+	python django_example/manage.py runserver
